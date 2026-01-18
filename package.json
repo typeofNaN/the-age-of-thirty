@@ -1,6 +1,7 @@
 {
   "name": "the-age-of-thirty",
   "version": "1.0.0",
+  "description": "使用VitePress搭建文档，纪念我的30岁",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,18 +13,21 @@
     "type": "git",
     "url": "git+https://github.com/typeofNaN/the-age-of-thirty.git"
   },
-  "author": "",
+  "author": {
+    "name": "typeofNaN",
+    "url": "https://github.com/typeofNaN",
+    "email": "dmdefine6@gmail.com"
+  },
+  "homepage": "https://github.com/typeofNaN/the-age-of-thirty#readme",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/typeofNaN/the-age-of-thirty/issues"
   },
-  "homepage": "https://github.com/typeofNaN/the-age-of-thirty#readme",
-  "description": "",
+  "dependencies": {
+    "vue": "^3.5.26"
+  },
   "devDependencies": {
     "@giscus/vue": "^3.1.1",
     "vitepress": "2.0.0-alpha.15"
-  },
-  "dependencies": {
-    "vue": "^3.5.26"
   }
 }
