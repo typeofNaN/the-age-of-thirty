@@ -5,8 +5,13 @@ export default defineConfig({
   base: '/the-age-of-thirty/',
   title: "typeofNaN",
   description: "A VitePress Site",
+  lang: 'zh-CN',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    search: {
+      provider: 'local'
+    },
+
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Examples', link: '/markdown-examples' }
