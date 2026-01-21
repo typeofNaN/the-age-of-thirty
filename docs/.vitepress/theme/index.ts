@@ -1,8 +1,9 @@
 import { h, watch } from 'vue'
 import DefaultTheme from 'vitepress/theme'
 import type { Theme } from 'vitepress'
-import Giscus from './components/giscus/index.vue'
 
+import { BASE_URL } from '../constants'
+import Giscus from './components/giscus/index.vue'
 import './rainbow.css'
 import './vars.css'
 // import './overrides.css'
@@ -23,7 +24,7 @@ export default {
     watch(
       () => router.route.data.relativePath,
       () => {
-        updateHomePageStyle(location.pathname === '/the-age-of-thirty/')
+        updateHomePageStyle(location.pathname === BASE_URL)
       },
       { immediate: true }
     )

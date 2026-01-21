@@ -1,13 +1,15 @@
 import { defineConfig } from 'vitepress'
 
+import { BASE_URL } from './constants'
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/the-age-of-thirty/',
+  base: BASE_URL,
   title: "typeofNaN",
   description: "A VitePress Site",
   lang: 'zh-CN',
   head: [
-    ['link', { rel: 'icon', href: '/the-age-of-thirty/favicon.ico', type: 'image/x-icon' }],
+    ['link', { rel: 'icon', href: `${BASE_URL}favicon.ico`, type: 'image/x-icon' }],
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
