@@ -6,6 +6,9 @@ export default defineConfig({
   title: "typeofNaN",
   description: "A VitePress Site",
   lang: 'zh-CN',
+  head: [
+    ['link', { rel: 'icon', href: '/the-age-of-thirty/favicon.ico', type: 'image/x-icon' }],
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     search: {
