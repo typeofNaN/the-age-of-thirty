@@ -5,12 +5,10 @@ import { BASE_URL } from './constants'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: BASE_URL,
-  title: "typeofNaN",
-  description: "A VitePress Site",
+  title: 'typeofNaN',
+  description: 'A VitePress Site',
   lang: 'zh-CN',
-  head: [
-    ['link', { rel: 'icon', href: `${BASE_URL}favicon.ico`, type: 'image/x-icon' }],
-  ],
+  head: [['link', { rel: 'icon', href: `${BASE_URL}favicon.ico`, type: 'image/x-icon' }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     search: {
@@ -18,8 +16,8 @@ export default defineConfig({
     },
 
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      // { text: 'Home', link: '/' },
+      // { text: 'Examples', link: '/markdown-examples' }
     ],
 
     sidebar: [
@@ -33,7 +31,10 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/typeofNaN/the-age-of-thirty' }
+      {
+        icon: 'github',
+        link: 'https://github.com/typeofNaN/the-age-of-thirty'
+      }
     ]
   }
 })

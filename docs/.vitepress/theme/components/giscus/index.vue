@@ -1,5 +1,5 @@
 <template>
-  <div class="giscus-wrapper" style="margin-top: 36px;">
+  <div class="giscus-wrapper" style="margin-top: 36px">
     <Giscus
       :key="page.filePath"
       repo="typeofNaN/the-age-of-thirty"
@@ -28,9 +28,7 @@ const { isDark, page } = useData()
 watch(isDark, (dark) => {
   if (!inBrowser) return
 
-  const iframe = document
-    .querySelector('giscus-widget')
-    ?.shadowRoot?.querySelector('iframe')
+  const iframe = document.querySelector('giscus-widget')?.shadowRoot?.querySelector('iframe')
 
   iframe?.contentWindow?.postMessage(
     { giscus: { setConfig: { theme: dark ? 'dark' : 'light' } } },
