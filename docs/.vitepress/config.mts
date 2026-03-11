@@ -21,6 +21,20 @@ export default defineConfig({
       // { text: 'Examples', link: '/markdown-examples' }
     ],
 
+    outline: {
+      label: '页面导航',
+      level: 'deep'
+    },
+
+    lastUpdated: {
+      text: '最后更新于'
+    },
+
+    docFooter: {
+      prev: '上一篇',
+      next: '下一篇'
+    },
+
     sidebar: [
       {
         text: '大雨',

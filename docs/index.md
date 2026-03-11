@@ -4,12 +4,12 @@ layout: home
 
 hero:
   name: 'typeofNaN'
-  text: 'A VitePress Site'
-  tagline: My great project tagline
+  text: 'Not a Number'
+  tagline: 转眼过去多年，世间多少离合悲欢。曾经志在四方少年，羡慕南飞的雁。
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 我的三十岁
+      link: /life/1
     - theme: alt
       text: API Examples
       link: /api-examples
