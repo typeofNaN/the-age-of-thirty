@@ -9,7 +9,8 @@ export const sidebar: DefaultTheme.Sidebar = [
     text: '你好，世界',
     items: [
       { text: '一场大雨', link: '/life/rain' },
-      { text: '它的名字叫家', link: '/life/family' }
+      { text: '家是避风港湾', link: '/life/family' },
+      { text: '童年', link: '/life/childhood' }
     ]
   }
 ]
