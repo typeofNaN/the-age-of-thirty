@@ -76,5 +76,14 @@ export default defineConfig({
         link: 'https://github.com/typeofNaN/the-age-of-thirty'
       }
     ]
+  },
+  markdown: {
+    container: {
+      tipLabel: '“',
+      warningLabel: '警告',
+      dangerLabel: '危险',
+      infoLabel: '信息',
+      detailsLabel: '详细信息'
+    }
   }
 })

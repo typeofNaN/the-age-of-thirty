@@ -9,9 +9,9 @@ hero:
   actions:
     - theme: brand
       text: 老男孩
-      link: /life/old-boy
+      link: /prologue/old-boy
     - theme: alt
-      text: 一场大雨
+      text: 你好，世界
       link: /life/rain
   image:
     src: /logo.png
