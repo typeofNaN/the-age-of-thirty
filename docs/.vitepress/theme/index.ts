@@ -1,6 +1,8 @@
 import { h, watch } from 'vue'
 import DefaultTheme from 'vitepress/theme'
 import type { Theme } from 'vitepress'
+import ImageViewer from '@miletorix/vitepress-image-viewer'
+import '@miletorix/vitepress-image-viewer/style.css'
 
 import { BASE_URL } from '../constants'
 import Giscus from './components/giscus/index.vue'
@@ -17,7 +19,8 @@ export default {
       'doc-after': () => h(Giscus)
     })
   },
-  enhanceApp({ router }) {
+  enhanceApp({ app, router }) {
+    ImageViewer(app)
     if (typeof window === 'undefined') return
 
     watch(
