@@ -32,10 +32,14 @@ export default {
 
 if (typeof window !== 'undefined') {
   // detect browser, add to class for conditional styling
-  const browser = navigator.userAgent.toLowerCase()
-  if (browser.includes('chrome')) document.documentElement.classList.add('browser-chrome')
-  else if (browser.includes('firefox')) document.documentElement.classList.add('browser-firefox')
-  else if (browser.includes('safari')) document.documentElement.classList.add('browser-safari')
+  const ua = navigator.userAgent.toLowerCase()
+  const isMobile = /mobi|android|iphone|ipad|ipod/i.test(ua)
+
+  if (!isMobile) {
+    if (ua.includes('chrome')) document.documentElement.classList.add('browser-chrome')
+    else if (ua.includes('firefox')) document.documentElement.classList.add('browser-firefox')
+    else if (ua.includes('safari')) document.documentElement.classList.add('browser-safari')
+  }
 }
 
 // Speed up the rainbow animation on home page
