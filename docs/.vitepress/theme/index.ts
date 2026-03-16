@@ -6,6 +6,7 @@ import '@miletorix/vitepress-image-viewer/style.css'
 
 import { BASE_URL } from '../constants'
 import Giscus from './components/giscus/index.vue'
+import AudioPlayer from './components/audio-player/index.vue'
 import './rainbow.css'
 import './vars.css'
 // import './overrides.css'
@@ -20,6 +21,7 @@ export default {
     })
   },
   enhanceApp({ app, router }) {
+    app.component('AudioPlayer', AudioPlayer)
     ImageViewer(app)
     if (typeof window === 'undefined') return
 
