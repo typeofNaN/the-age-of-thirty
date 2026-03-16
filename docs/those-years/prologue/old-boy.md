@@ -34,6 +34,11 @@
 
 ## 「老男孩」
 
+<AudioPlayer
+  src="https://typeofnan.oss-cn-guangzhou.aliyuncs.com/30/audio/%E8%80%81%E7%94%B7%E5%AD%A9.mp3"
+  title="老男孩 - 筷子兄弟"
+/>
+
 ```
 那是我日夜思念深深爱着的人呐
 到底我该如何表达
