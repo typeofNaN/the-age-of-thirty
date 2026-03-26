@@ -1,5 +1,5 @@
 {
-  "name": "the-age-of-thirty",
+  "name": "old-boy",
   "version": "1.0.0",
   "description": "使用VitePress搭建文档，纪念我的30岁",
   "main": "index.js",
@@ -14,17 +14,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/typeofNaN/the-age-of-thirty.git"
+    "url": "git+https://github.com/typeofNaN/old-boy.git"
   },
   "author": {
     "name": "typeofNaN",
     "url": "https://github.com/typeofNaN",
     "email": "dmdefine6@gmail.com"
   },
-  "homepage": "https://github.com/typeofNaN/the-age-of-thirty#readme",
+  "homepage": "https://github.com/typeofNaN/old-boy#readme",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/typeofNaN/the-age-of-thirty/issues"
+    "url": "https://github.com/typeofNaN/old-boy/issues"
   },
   "dependencies": {
     "@miletorix/vitepress-image-viewer": "^1.3.2",

@@ -85,7 +85,7 @@ export default defineConfig({
     socialLinks: [
       {
         icon: 'github',
-        link: 'https://github.com/typeofNaN/the-age-of-thirty'
+        link: 'https://github.com/typeofNaN/old-boy'
       }
     ]
   },

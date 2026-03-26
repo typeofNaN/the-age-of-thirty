@@ -2,7 +2,7 @@
   <div class="giscus-wrapper" style="margin-top: 36px">
     <Giscus
       :key="page.filePath"
-      repo="typeofNaN/the-age-of-thirty"
+      repo="typeofNaN/old-boy"
       repo-id="R_kgDOQ8Lc7w"
       category="General"
       category-id="DIC_kwDOQ8Lc784C1G7K"
